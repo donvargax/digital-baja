@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/faker": "4.1.5",
     "faker": "github:Marak/faker.js#master",
-    "json-server": "0.14.2"
+    "json-server": "0.14.2",
+    "yarn-or-npm": "2.0.4"
   }
 }
