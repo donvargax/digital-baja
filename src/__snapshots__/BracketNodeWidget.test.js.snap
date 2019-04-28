@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="bracket-node "
+    style="background: rgb(0, 192, 255);"
+  >
+    <div
+      class="bracket-node__title "
+    >
+      <div
+        class="bracket-node__name "
+      >
+        None
+      </div>
+    </div>
+    <div
+      class="port srd-port "
+      data-name="left"
+      data-nodeid="1"
+    />
+    <div
+      class="port srd-port "
+      data-name="right"
+      data-nodeid="1"
+    />
+    <div
+      class="bracket-node__title "
+    >
+      <div
+        class="bracket-node__name "
+      >
+        None
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
