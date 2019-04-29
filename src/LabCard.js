@@ -3,11 +3,11 @@ import React from 'react'
 import Rating from 'material-ui-rating'
 import ThumbUpIcon from '@material-ui/icons/ThumbUp'
 
-export const LabCard = ({title, description, rating, price, distance}) =>
+export const LabCard = ({title, description, rating, price, distance, image}) =>
     <div className="card">
         <div className="card-image">
-            <img src="images/test3.jpg" />
-            <span className="card-title">{title}</span>
+            <img src={`images/${image}`} style={{maxHeight: '254px'}} />
+            <span className="card-title teal" style={{width: '100%'}}>{title}</span>
             <a style={{paddingTop: '6px', paddingLeft: '8px'}} className="btn-floating halfway-fab waves-effect waves-light blue darken-2"><ThumbUpIcon /></a>
         </div>
         <br />

@@ -4,6 +4,7 @@ faker.commerce.rating = () => faker.random.number({ min: 0.0, max: 5.0 })
 
 module.exports = () => {
 	let departments = ['Microbiology', 'Parasitology', 'Virology', 'Hematology', 'Coagulation', 'Clinical Biochemistry', 'Toxicology', 'Immunology', 'Immunohaematology', 'Urianalysis', 'Histopathology', 'Cytopathology', 'Molecular diagnostics', 'Cytogenetics', 'Surgical pathology']
+	let images = ['test-example.jpg', 'test1.jpg', 'test2.jpg', 'test3.jpg', 'test4.jpg']
 	let data = { labs: [], departments: departments.map((value, index) => ({ id: index, name: value }))}
 	for (let i = 0; i < 1000; i++) {
 		let name = faker.company.companyName()
@@ -26,6 +27,7 @@ module.exports = () => {
 			rating: faker.commerce.rating(),
 			department: faker.random.arrayElement(departments),
 			description: faker.lorem.paragraph(),
+			image: faker.random.arrayElement(images),
 		})
 	}
 
