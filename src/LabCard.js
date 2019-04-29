@@ -4,7 +4,7 @@ import Rating from 'material-ui-rating'
 import ThumbUpIcon from '@material-ui/icons/ThumbUp'
 
 export const LabCard = ({title, description, rating, price, distance, image}) =>
-    <div className="card">
+    <div className="card animated tada">
         <div className="card-image">
             <img src={`static/images/${image}`} style={{maxHeight: '254px'}} />
             <span className="card-title teal" style={{width: '100%'}}>{title}</span>
