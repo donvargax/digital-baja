@@ -1,6 +1,7 @@
 import React from 'react';
 import { Bracket } from './Bracket';
 import { LabCard } from './LabCard';
+import Decision from './Decision';
 
 const games = [
   {
@@ -123,12 +124,7 @@ class App extends React.Component {
     }
     return (
       <div className="App">
-        <div className="col m5">
-          <LabCard {...labs[0]} />
-        </div>
-        <div className="col m5">
-        <LabCard {...labs[1]} />
-        </div>
+        <Decision labs={labs.slice(0, 8)} />
       </div>
     );
   }
