@@ -1,5 +1,6 @@
 import React from 'react';
 import { Bracket } from './Bracket';
+import { LabCard } from './LabCard';
 
 const games = [
   {
@@ -112,6 +113,13 @@ class App extends React.Component {
         <button onClick={() => this.changeGames()}>
           Test changing games!
         </button>
+        <LabCard
+          title="Lorem Ipsum 1"
+          rating={4}
+          price={49.99}
+          distance={7.23}
+          description="Description, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        />
       </div>
     );
   }

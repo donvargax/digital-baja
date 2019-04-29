@@ -114,6 +114,7 @@ export const Bracket = ({games = []}) => {
 	if (7 == games.length) {
 		game = games[6];
 	}
+
 	let node = new BracketNodeModel(game.home, game.visitor, "#eee", game.played, game.homeWinner)
 
 	node.setPosition(startx + (width * 2), starty + height + height / 2)
