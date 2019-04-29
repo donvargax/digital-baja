@@ -6,23 +6,26 @@ module.exports = () => {
 	let departments = ['Microbiology', 'Parasitology', 'Virology', 'Hematology', 'Coagulation', 'Clinical Biochemistry', 'Toxicology', 'Immunology', 'Immunohaematology', 'Urianalysis', 'Histopathology', 'Cytopathology', 'Molecular diagnostics', 'Cytogenetics', 'Surgical pathology']
 	let data = { labs: [], departments: departments.map((value, index) => ({ id: index, name: value }))}
 	for (let i = 0; i < 1000; i++) {
+		let name = faker.company.companyName()
 		data.labs.push({
 			id: i,
 			date: faker.date.soon(),
-			name: faker.company.companyName(),
+			name: name,
+			title: name,
 			location: {
 				latitude: faker.address.latitude(),
 				longitude: faker.address.longitude(),
 			},
 			price: faker.commerce.price(),
 			service: faker.commerce.productName,
-			distance: faker.random.number(),
+			distance: faker.random.number({min: 5, max: 300}),
 			"extra-payload": {
 				title: faker.commerce.productName,
 				description: faker.lorem.paragraphs,
 			},
-			rated: faker.commerce.rating(),
+			rating: faker.commerce.rating(),
 			department: faker.random.arrayElement(departments),
+			description: faker.lorem.paragraph(),
 		})
 	}
 

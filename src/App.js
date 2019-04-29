@@ -94,10 +94,10 @@ const games2 = [
 
 
 class App extends React.Component {
-  state = {games: games};
 
   constructor() {
     super()
+    this.state = {games: games, isLoading: true};
   }
 
   changeGames() {
@@ -106,20 +106,29 @@ class App extends React.Component {
     })
   }
 
+  componentDidMount() {
+    fetch('http://192.168.7.202:4000/labs')
+      .then(response => response.json())
+      .then(data => this.setState({
+        ...this.state,
+        labs: data,
+        isLoading: false,
+      }))
+  }
+
   render() {
+    const { labs, isLoading } = this.state
+    if (isLoading) {
+      return <p>Loading...</p>
+    }
     return (
       <div className="App">
-        <Bracket games={this.state.games} />
-        <button onClick={() => this.changeGames()}>
-          Test changing games!
-        </button>
-        <LabCard
-          title="Lorem Ipsum 1"
-          rating={4}
-          price={49.99}
-          distance={7.23}
-          description="Description, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-        />
+        <div className="col m5">
+          <LabCard {...labs[0]} />
+        </div>
+        <div className="col m5">
+        <LabCard {...labs[1]} />
+        </div>
       </div>
     );
   }
