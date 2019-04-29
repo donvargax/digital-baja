@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+    style="width: 50%;"
+  >
+    <div
+      class="card-image"
+    >
+      <img
+        src="images/test3.jpg"
+      />
+      <span
+        class="card-title"
+      >
+        Lorem Ipsum 1
+      </span>
+      <a
+        class="btn-floating halfway-fab waves-effect waves-light blue darken-2"
+        style="padding-top: 6px; padding-left: 8px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root-1"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"
+          />
+        </svg>
+      </a>
+    </div>
+    <br />
+    <div
+      class="card-content row content"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col s5 offset-s7 rate"
+        >
+          <div
+            class="Rating-root-10"
+          >
+            <button
+              class="MuiButtonBase-root-20 MuiIconButton-root-14 Rating-iconButton-11"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label-19"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-1"
+                  color="#ff9800"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root-23"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root-20 MuiIconButton-root-14 Rating-iconButton-11"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label-19"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-1"
+                  color="#ff9800"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root-23"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root-20 MuiIconButton-root-14 Rating-iconButton-11"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label-19"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-1"
+                  color="#ff9800"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root-23"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root-20 MuiIconButton-root-14 Rating-iconButton-11"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label-19"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-1"
+                  color="#ff9800"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root-23"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root-20 MuiIconButton-root-14 Rating-iconButton-11"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label-19"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-1"
+                  color="#e0e0e0"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root-23"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col m10 s10 offset-m1 offset-s1"
+        >
+          <p>
+            Description, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div
+        class="row"
+      >
+        <div
+          class="col m4 s4 offset-m1 offset-s1"
+        >
+          <p
+            class="price-title"
+          >
+            $ 49.99
+          </p>
+        </div>
+        <div
+          class="col m4 s4 offset-m3 offset-s3"
+        >
+          <p
+            class="distance-title"
+          >
+            7.23 KM
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-action"
+    >
+      <a
+        class="modal-trigger"
+        href="#modal1"
+      >
+        more info
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

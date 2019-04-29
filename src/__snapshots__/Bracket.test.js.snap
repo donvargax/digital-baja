@@ -1,0 +1,1299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with 1 game 1`] = `
+<DocumentFragment>
+  <div
+    class="srd-diagram bracket-canvas "
+  >
+    <svg
+      class="srd-link-layer "
+      style="transform: translate(0px,0px) scale(1);"
+    >
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="29"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="34"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="39"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="44"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="49"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="54"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+    </svg>
+    <div
+      class="srd-node-layer "
+      style="transform: translate(0px,0px) scale(1);"
+    >
+      <div
+        class="node srd-node "
+        data-nodeid="8"
+        style="top: 10px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Graham, Kunde and Abshire
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="8"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="8"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              Baumbach - Keebler
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="11"
+        style="top: 110px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="11"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="11"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="14"
+        style="top: 210px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="14"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="14"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="17"
+        style="top: 310px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="17"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="17"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="20"
+        style="top: 60px; left: 310px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="20"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="20"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="23"
+        style="top: 260px; left: 310px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="23"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="23"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="26"
+        style="top: 160px; left: 610px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="26"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="26"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders with multiple games 1`] = `
+<DocumentFragment>
+  <div
+    class="srd-diagram bracket-canvas "
+  >
+    <svg
+      class="srd-link-layer "
+      style="transform: translate(0px,0px) scale(1);"
+    >
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="29"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="34"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="39"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="44"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="49"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="54"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+    </svg>
+    <div
+      class="srd-node-layer "
+      style="transform: translate(0px,0px) scale(1);"
+    >
+      <div
+        class="node srd-node "
+        data-nodeid="8"
+        style="top: 10px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Graham, Kunde and Abshire
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="8"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="8"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              Baumbach - Keebler
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="11"
+        style="top: 110px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              McCullough - Russel
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="11"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="11"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Pagac, O'Hara and Goodwin
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="14"
+        style="top: 210px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Spencer - Stanton
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="14"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="14"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              Rodriguez - Doyle
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="17"
+        style="top: 310px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              O'Connel, Schultz and Halvorson
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="17"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="17"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              King, Miller and Haley
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="20"
+        style="top: 60px; left: 310px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              Graham, Kunde and Abshire
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="20"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="20"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Pagac, O'Hara and Goodwin
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="23"
+        style="top: 260px; left: 310px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Spencer - Stanton
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="23"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="23"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              O'Connel, Schultz and Halvorson
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="26"
+        style="top: 160px; left: 610px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              Pagac, O'Hara and Goodwin
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="26"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="26"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+              style="background: rgb(0, 170, 0);"
+            >
+              Spencer - Stanton
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="srd-diagram bracket-canvas "
+  >
+    <svg
+      class="srd-link-layer "
+      style="transform: translate(0px,0px) scale(1);"
+    >
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="29"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="34"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="39"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="44"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="49"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+      <g
+        class="srd-default-link "
+      >
+        <g>
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-width="3"
+          />
+          <path
+            class=""
+            d="M0,0 C 0,50
+    0,-50 0,0"
+            data-linkid="54"
+            stroke="rgba(255,255,255,0.5)"
+            stroke-linecap="round"
+            stroke-opacity="0"
+            stroke-width="20"
+          />
+        </g>
+      </g>
+    </svg>
+    <div
+      class="srd-node-layer "
+      style="transform: translate(0px,0px) scale(1);"
+    >
+      <div
+        class="node srd-node "
+        data-nodeid="8"
+        style="top: 10px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="8"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="8"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="11"
+        style="top: 110px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="11"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="11"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="14"
+        style="top: 210px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="14"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="14"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="17"
+        style="top: 310px; left: 10px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="17"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="17"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="20"
+        style="top: 60px; left: 310px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="20"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="20"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="23"
+        style="top: 260px; left: 310px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="23"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="23"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="node srd-node "
+        data-nodeid="26"
+        style="top: 160px; left: 610px;"
+      >
+        <div
+          class="bracket-node "
+          style="background: rgb(238, 238, 238);"
+        >
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+          <div
+            class="port srd-port "
+            data-name="left"
+            data-nodeid="26"
+          />
+          <div
+            class="port srd-port "
+            data-name="right"
+            data-nodeid="26"
+          />
+          <div
+            class="bracket-node__title "
+          >
+            <div
+              class="bracket-node__name "
+            >
+              None
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
