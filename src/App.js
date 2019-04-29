@@ -46,13 +46,75 @@ const games = [
   },
 ]
 
+const games2 = [
+  {
+    home: "Abshire",
+    visitor: "Keebler",
+    played: true,
+    homeWinner: false,
+  },
+  {
+    home: "Russel",
+    visitor: "Goodwin",
+    played: true,
+    homeWinner: true,
+  },
+  {
+    home: "Stanton",
+    visitor: "Doyle",
+    played: true,
+    homeWinner: false,
+  },
+  {
+    home: "Halvorson",
+    visitor: "Haley",
+    played: true,
+    homeWinner: false,
+  },
+  {
+    home: "Abshire",
+    visitor: "Goodwin",
+    played: true,
+    homeWinner: true,
+  },
+  {
+    home: "Stanton",
+    visitor: "Halvorson",
+    played: true,
+    homeWinner: false,
+  },
+  {
+    home: "Goodwin",
+    visitor: "Stanton",
+    played: true,
+    homeWinner: true,
+  },
+]
 
-function App() {
-  return (
-    <div className="App">
-	  <Bracket games={games} />
-    </div>
-  );
+
+class App extends React.Component {
+  state = {games: games};
+
+  constructor() {
+    super()
+  }
+
+  changeGames() {
+    this.setState({
+      games: games2
+    })
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Bracket games={this.state.games} />
+        <button onClick={() => this.changeGames()}>
+          Test changing games!
+        </button>
+      </div>
+    );
+  }
 }
 
 export default App;
