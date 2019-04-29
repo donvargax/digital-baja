@@ -4,7 +4,6 @@ exports[`renders without crashing 1`] = `
 <DocumentFragment>
   <div
     class="card"
-    style="width: 50%;"
   >
     <div
       class="card-image"
@@ -221,7 +220,9 @@ exports[`renders without crashing 1`] = `
         <div
           class="col m10 s10 offset-m1 offset-s1"
         >
-          <p>
+          <p
+            class="truncate"
+          >
             Description, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
           </p>
         </div>

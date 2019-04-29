@@ -3,11 +3,8 @@ import React from 'react'
 import Rating from 'material-ui-rating'
 import ThumbUpIcon from '@material-ui/icons/ThumbUp'
 
-import './materialize.css';
-import './style.css';
-
 export const LabCard = ({title, description, rating, price, distance}) =>
-    <div style={{width: '50%'}} className="card">
+    <div className="card">
         <div className="card-image">
             <img src="images/test3.jpg" />
             <span className="card-title">{title}</span>
@@ -22,7 +19,7 @@ export const LabCard = ({title, description, rating, price, distance}) =>
             </div>
             <div className="row">
                 <div className="col m10 s10 offset-m1 offset-s1">
-                    <p>{description}</p>
+                    <p className="truncate">{description}</p>
                 </div>
             </div>
             <br />

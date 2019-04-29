@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start & yon run apiserver",
+    "st": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
