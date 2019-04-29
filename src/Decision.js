@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { LabCard } from './LabCard';
+import { Bracket } from './Bracket';
 
 class Decision extends React.Component {
 
@@ -20,8 +21,8 @@ class Decision extends React.Component {
   selectWinner(index) {
     let { labs, matches, currentMatch } = this.state;
     matches.push({
-        home: labs[currentMatch.home],
-        visitor: labs[currentMatch.visitor],
+        home: labs[currentMatch.home].title,
+        visitor: labs[currentMatch.visitor].title,
         played: true,
         homeWinner: index === currentMatch.home,
     })
@@ -45,11 +46,11 @@ class Decision extends React.Component {
   }
 
   render() {
-    const { labs, currentMatch, winner } = this.state
+    const { labs, currentMatch, winner, matches } = this.state
     const { home, visitor } = currentMatch
 
     if (winner) {
-        return <p>WINNER!</p>
+        return <Bracket games={matches} />
     }
 
     return (
