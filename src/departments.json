@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "Microbiology"
+  },
+  {
+    "id": 1,
+    "name": "Parasitology"
+  },
+  {
+    "id": 2,
+    "name": "Virology"
+  },
+  {
+    "id": 3,
+    "name": "Hematology"
+  },
+  {
+    "id": 4,
+    "name": "Coagulation"
+  },
+  {
+    "id": 5,
+    "name": "Clinical Biochemistry"
+  },
+  {
+    "id": 6,
+    "name": "Toxicology"
+  },
+  {
+    "id": 7,
+    "name": "Immunology"
+  },
+  {
+    "id": 8,
+    "name": "Immunohaematology"
+  },
+  {
+    "id": 9,
+    "name": "Urianalysis"
+  },
+  {
+    "id": 10,
+    "name": "Histopathology"
+  },
+  {
+    "id": 11,
+    "name": "Cytopathology"
+  },
+  {
+    "id": 12,
+    "name": "Molecular diagnostics"
+  },
+  {
+    "id": 13,
+    "name": "Cytogenetics"
+  },
+  {
+    "id": 14,
+    "name": "Surgical pathology"
+  }
+]

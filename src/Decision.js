@@ -26,7 +26,6 @@ class Decision extends React.Component {
         played: true,
         homeWinner: index === currentMatch.home,
     })
-    console.log(matches.length)
     if (matches.length == 7) {
       this.setState({
         ...this.state,
