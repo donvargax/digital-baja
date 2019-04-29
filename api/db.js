@@ -6,23 +6,21 @@ module.exports = () => {
 	let data = { labs: [] }
 	for (let i = 0; i < 1000; i++) {
 		data.labs.push({
-			lab: {
-				ID: i,
-				date: faker.date.soon(),
-				name: faker.company.companyName(),
-				location: {
-					latitude: faker.address.latitude(),
-					longitude: faker.address.longitude(),
-				},
-				price: faker.commerce.price(),
-				service: faker.commerce.productName,
-				distance: faker.random.number(),
-				"extra-payload": {
-					title: faker.commerce.productName,
-					description: faker.lorem.paragraphs,
-				},
-				rated: faker.commerce.rating(),
-			}
+			id: i,
+			date: faker.date.soon(),
+			name: faker.company.companyName(),
+			location: {
+				latitude: faker.address.latitude(),
+				longitude: faker.address.longitude(),
+			},
+			price: faker.commerce.price(),
+			service: faker.commerce.productName,
+			distance: faker.random.number(),
+			"extra-payload": {
+				title: faker.commerce.productName,
+				description: faker.lorem.paragraphs,
+			},
+			rated: faker.commerce.rating(),
 		})
 	}
 
