@@ -49,11 +49,23 @@ class Decision extends React.Component {
     const { home, visitor } = currentMatch
 
     if (winner) {
-        return <Bracket games={matches} />
+        const winnerIndex = currentMatch.homeWinner ? home : visitor
+        return (
+          <div className="col m10">
+            <Bracket games={matches} />
+            <p>
+                The Winner is:
+                <LabCard {...labs[winnerIndex]} />
+            </p>
+          </div>
+        )
     }
 
     return (
       <div>
+        <p>
+            Please, select one of the two labs based on your criteria
+        </p>
         <div className="col m5" style={{cursor: 'pointer'}} onClick={() => this.selectWinner(home)}>
           <LabCard {...labs[home]} />
         </div>
