@@ -9,7 +9,7 @@ exports[`renders without crashing 1`] = `
       class="card-image"
     >
       <img
-        src="images/undefined"
+        src="static/images/undefined"
         style="max-height: 254px;"
       />
       <span

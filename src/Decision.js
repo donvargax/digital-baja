@@ -49,11 +49,29 @@ class Decision extends React.Component {
     const { home, visitor } = currentMatch
 
     if (winner) {
-        return <Bracket games={matches} />
+        const winnerIndex = currentMatch.homeWinner ? home : visitor
+        return (
+          <div className="col m10">
+            <p>
+              Thank you for using our Lab Decision Maker, here's a summary of the labs you compared:
+            </p>
+            <Bracket games={matches} />
+            <p>
+                ...And the Winner is:
+                <LabCard {...labs[winnerIndex]} />
+            </p>
+          </div>
+        )
     }
 
     return (
       <div>
+        <p>
+          Welcome to our Lab Decision Maker, which will help you decide on a Lab to run your experiments!
+        </p>
+        <p>
+          Please, keep selecting one of the two labs shown based on your criteria. As soon as you select one a new set will appear.
+        </p>
         <div className="col m5" style={{cursor: 'pointer'}} onClick={() => this.selectWinner(home)}>
           <LabCard {...labs[home]} />
         </div>

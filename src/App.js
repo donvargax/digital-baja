@@ -17,13 +17,6 @@ class App extends React.Component {
       labs: data,
       isLoading: false
     })
-    // fetch('http://192.168.7.202:4000/labs')
-    //   .then(response => response.json())
-    //   .then(data => this.setState({
-    //     ...this.state,
-    //     labs: data,
-    //     isLoading: false,
-    //   }))
   }
 
   render() {
