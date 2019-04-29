@@ -1,5 +1,5 @@
 // create players
-var max =18,
+var max = 8,
     
     vendors= [],
     
@@ -21,7 +21,7 @@ while(1){
     vendors.push(Object.assign({}, Vendor.vendor(), Geo.geo(), {bye: 0}));
     vendors.push(Object.assign({}, Vendor.vendor(), Geo.geo(), {bye: 0}));
     
-    if(vendors.length === 18) break;
+    if(vendors.length === max) break;
     
 }
 
@@ -32,13 +32,10 @@ while(1){
  */
 function bye(vendors) {
     
-    var j = 0;
     for (var n = 0; n < vendors.length; n++) {
-        
-        if (j % 2) {
+        if (n % 2) {
             vendors[n].bye = 1;
         }
-        j++;
     }
     
     return vendors;
@@ -65,9 +62,15 @@ function qualify(vendors) {
 /**
  * play
  */
+console.log("=================================");
+console.log("Round vendors");
+console.log(vendors);
+
 while(1) {
+
     
     vendors = qualify(bye(vendors));
+
     console.log("=================================");
     console.log("Round vendors");
     console.log(vendors);
